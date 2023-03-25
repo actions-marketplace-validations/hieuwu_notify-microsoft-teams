@@ -156,7 +156,7 @@ class MSTeams {
 			...this.header,
 			correlationId: sha,
 			themeColor: color,
-			title: `${sender.login} ${eventName} initialised workflow "${workflow}"`,
+			title: `${sender.login} ${eventName} has new PR Ready to Review!"`,
 			summary: repository_link,
 			sections,
 			potentialAction: [
