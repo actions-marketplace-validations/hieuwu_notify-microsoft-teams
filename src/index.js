@@ -59,6 +59,7 @@ async function run() {
 
 		if (dry_run === '' || dry_run==='false') {
 			await msteams.notify(webhook_url, payload);
+			core.info('Please do something');
 			core.info('Sent message to Microsoft Teams');
 		} else {
 			core.info('Dry run - skipping notification send. Done.');
