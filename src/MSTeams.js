@@ -28,7 +28,7 @@ const statuses = [
 		id: 'success',
 		icon: '✓',
 		color: '#2cbe4e',
-		activityTitle: "Success!",
+		activityTitle: "Pull Request Ready to Review!",
 		activitySubtitle: head_commit.timestamp,
 		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/success.png"
 
