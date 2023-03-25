@@ -1,6 +1,6 @@
-name: 'notify-microsoft-teams'
-description: 'Microsoft Teams Notification for Github Actions'
-author: 'Skitionek'
+name: 'pr-notify-microsoft-teams'
+description: 'Microsoft Teams Notification for Github Actions for PR events'
+author: 'Original from Skitionek, customize by Hieu Vu'
 inputs:
   webhook_url:
     description: 'teams incoming webhook url'
